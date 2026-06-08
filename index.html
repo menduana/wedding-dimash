@@ -423,7 +423,8 @@ const musicBtn = document.getElementById('musicToggle');
             } else {
                 audio.pause();
                 musicBtn.classList.remove('playing');
-                musicBtn.textContent = '♫'; // Возвращаем ноту при паузе
+                musicBtn.textContent = '♫';
+                musicBtn.style.color = '#5c4e41';
             }
         });
 
